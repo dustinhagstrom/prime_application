@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    margin: 15px;
+    border: 5px #f38c1d outset;
+    border-style: groove;
+    padding: 15px;
+    background-color: #006275;
+}
+
+body {
+   font-family: 'Times New Roman', Times, serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {
+    width: 75px;
+}
+
+#main {
+    padding: 25px 20px 5px;
+    border-style:double;
+    border-color: black;
+    background-color: white;
+}
+
+#name {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.contact_items_container,
+.skill_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_items,
+.skill_items {
+    padding-left: 0;
+}
+
+.contact_item {
+    list-style-type: none;
+}
+
+.skill_items {
+    list-style-type: none;
+}
+
+.section_header {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.workplace {
+    margin-bottom: 0;
+}
